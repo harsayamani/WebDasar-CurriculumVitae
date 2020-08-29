@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Russo+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+    font-family: 'Russo+One', sans-serif;
+}
+
+.jumbotron{
+    font-size: 20px;
+    background-color: #e36387;
+    color: white;
+}
+
+.jumbotron table{
+    margin-left: 30px;
+}
+
+#icon-user{
+    margin: 10px;
+    width: 50px;
+}
+
+nav{
+    background-color: #f2aaaa;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #f2aaaa;
+}
+
+footer{
+    font-family: 'Russo+One', sans-serif;
+    padding: 10px;
+    color: white;
+    background-color: #00416d;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-trap{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+#content{
+    float: left;
+    width: 65%;
+}
+
+aside{
+    float: right;
+    width: 35%;
+    padding-left: 20px;
+}
+
+.about header{
+    text-align: center;
+}
+
+.about{
+    padding: 20px;
+}
+
+aside th{
+    text-align: justify;
+}
+
+.header-title{
+    background-color: #a6dcef;
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+}
+
+.image-circle{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.section-content{
+    padding: 30px;
+}
+
+h3{
+    padding-left: 20px;
+}
+
+.table-content{
+    border-collapse: collapse;
+}
+
+.table-content td{
+    padding: 20px;
+}
+
+.image-achievement{
+    width: 30px;
+}
+
+#license .table-content th{
+    text-align: center;
+}
+
+#license .table-content td{
+    text-align: center;
+}
+
+aside h3{
+    color: cornflowerblue;
+    padding: 0;
+}
+
+.progress-status{
+    width: 100%;
+    background-color: #ddd
+}
+
+#android_development, #web_development, #game_development, #animation { 
+    width: 1%; 
+    height: 35px; 
+    background-color: #4CAF50; 
+    text-align: center; 
+    line-height: 32px; 
+    color: black; 
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
